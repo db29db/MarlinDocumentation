@@ -30,6 +30,7 @@ Settings can be enabled, disabled, and assigned values using C preprocessor synt
 #define THIS_IS_ENABLED    // this switch is enabled
 //#define THIS_IS_DISABLED // this switch is disabled
 #define OPTION_VALUE 22    // this setting is "22"
+#undef OPTION_VALUE	   // undefines OPTION_VALUE, defined previously using #define. 
 ```
 
 
